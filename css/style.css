@@ -101,6 +101,9 @@ section img{
     margin-left: 25px;
     margin-right: 25px;
 }
+.texto-aroma{
+    padding-bottom: 15px;
+}
 article img{
     border-style: double;
 }
@@ -132,35 +135,47 @@ article img{
     background-color: blanchedalmond;
     margin-top: -40px;
     margin-bottom: 50px;
-    margin-left: 90px;
-    margin-right: 90px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .titulo{
     background-color: #c87a69;
     padding: 8px 12px;
     text-align: center;
 }
-.contact-form{
-    padding: 1em;
+input[type=text],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #c87a69;
+    outline: none;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical
+}
+input[type=submit] {
+    width: 10rem;
+    background-color: #c87a69;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.boton{
+    display: flex;
+    justify-content: center;
 }
 .contact-form form{
-    margin-left: 140px;
-    margin-right: 140px;
-    padding: 1em;
+    margin: 40px;
+    padding-bottom: 42px;
 }
-.contact-form form button,
-.contact-form form input,
-.contact-form form textarea{
-    width: 100%;
-    padding: .7em;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid #c87a69;
-}
-.button{
-    margin-left: 40%;
-    margin-right: 40%;
-    border-radius: 4px;
+.contact-form{
+    display: flex;
+    justify-content: center;
 }
 /*Footer*/
 .footer-section{
@@ -232,7 +247,16 @@ div a{
         grid-gap: 30px;
         padding: 35px 0px;
     }
+    .contacto{
+        margin-left: 0;
+        margin-right: 0;
     }
+    }
+@media only screen and (min-width:700px){
+    form{
+        width: 40rem;
+    }
+}
 @media only screen and (max-width:1000px){
     .productos {
         display: grid;
@@ -243,7 +267,7 @@ div a{
         padding-bottom: 5%;
     }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width:600px) {
     .productos {
         display: grid;
             grid-template-columns: repeat(1, 1fr);
@@ -268,4 +292,4 @@ div a{
     .logo img{
         margin-left: 40px;
     }
-    }
+}
