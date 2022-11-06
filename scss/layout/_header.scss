@@ -1,0 +1,40 @@
+/*Header*/
+nav{
+    display: flex;
+    min-height: 70px;
+    background-color: $color-primario;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.logo{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 200px;
+}
+.logo img{
+    margin-right: 10px;
+}
+ul{
+    padding-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+li a {
+    margin-right: 25px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav img{
+    margin-left: 5px;
+}
+.active{
+    background-color: $color-fondo;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
