@@ -1,0 +1,24 @@
+/*paginainicio*/
+.inicio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: -40px;
+    background-color: $color-fondo;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+.texto{
+    width: 40%;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: 60px;
+    margin-right: 60px;
+    .titulo1{
+        margin-bottom: 20px;
+        background-color: $color-primario;
+        padding: 8px;
+        text-align: center;
+        font-size: xx-large;
+    }
+}

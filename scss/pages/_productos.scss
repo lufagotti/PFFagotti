@@ -1,0 +1,20 @@
+/*paginaproductos*/
+.titulo3{
+    background-color: $color-primario;
+    padding: 8px 12px;
+}
+.productos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 0.5vw;
+    font-size: 120%;
+    .precio{
+        display: flex;
+        justify-content: center;
+        padding-top: 5%;
+        h4{
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+    }
+}

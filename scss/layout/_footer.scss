@@ -1,44 +1,50 @@
 /*Footer*/
 .footer-section{
     background-color: $color-fondo;
-}
-.footer-section .contacto{
-    width: 100%;
-    max-width: 1200px;
-    margin: auto;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-gap: 50px;
-    padding: 45px 0px;
-}
-.footer-section .contacto h2{
-    color:$color-primario;
-    margin-bottom: 25px;
-    font-size: 20px;
-}
-.footer-section .contacto .box a{
-    display: inline-block;
-    text-decoration: none;
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    color: $color-copy;
-    margin-right: 10px;
-    background-color: $color-primario;
-    border-radius: 10px;
-    text-align: center;
-    align-items: center;
-    transition: all 300ms ease;
+    .contacto{
+        width: 100%;
+        max-width: 1200px;
+        margin: auto;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 50px;
+        padding: 45px 0px;
+        .box{
+            h2{
+                color:$color-primario;
+                margin-bottom: 25px;
+                font-size: 20px;
+            }
+            a{
+                display: inline-block;
+                text-decoration: none;
+                width: 45px;
+                height: 45px;
+                line-height: 45px;
+                color: $color-copy;
+                margin-right: 10px;
+                background-color: $color-primario;
+                border-radius: 10px;
+                text-align: center;
+                align-items: center;
+                transition: all 300ms ease;
+            }
+            .info{
+                display: flex;
+                margin-top: 5px;
+            }
+        }
+    }
 }
 i{
     font-size: 20px;
     color:$color-fuente;
     transform: scale(1);
     transition: 0.4s ease-in-out;
-}
-i:hover{
-    transform: scale(1.3);
-    color: $color-fondo;
+    &:hover{
+        transform: scale(1.3);
+        color: $color-fondo;
+    }
 }
 .copy{
     background-color:$color-primario;
@@ -46,16 +52,13 @@ i:hover{
     text-align: center;
     color: $color-copy;
 }
-
-.info{
-    display: flex;
-    margin-top: 5px;
-}
-div h5{
-    margin-top: 10px;
-    margin-left: 5px;
-}
-div a{
-    margin-left: 25px;
-    color: $color-fuente;
+div{
+    a{
+        margin-left: 25px;
+        color: $color-fuente;
+    }
+    h5{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
 }

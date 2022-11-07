@@ -1,0 +1,25 @@
+/*paginaFAQ*/
+.faq{
+    background-color: $color-fondo;
+    margin-top: -40px;
+    margin-bottom: 50px;
+    text-align: center;
+    .titulo2{
+        background-color: $color-primario;
+        padding: 8px 12px;
+        text-align: center;
+    }
+    .pregunta{
+        text-align: left;
+        margin-top: 20px;
+        margin-left: 30px;
+    }
+    .respuesta{
+        text-align: justify;
+        margin-top: 12px;
+        padding-bottom: 40px;
+        margin-bottom: -20px;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+}
