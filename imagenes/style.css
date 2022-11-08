@@ -226,14 +226,14 @@ ul {
   margin-top: -40px;
   margin-bottom: 50px;
   text-align: center; }
-  .faq .titulo2 {
+  .faq .titulo2, .faq .titulo3 {
     background-color: #c87a69;
     padding: 8px 12px;
     text-align: center; }
   .faq .pregunta {
     text-align: left;
     margin-top: 20px;
-    margin-left: 30px; }
+    margin-left: 40px; }
   .faq .respuesta {
     text-align: justify;
     margin-top: 5px;
@@ -252,10 +252,6 @@ section img {
   padding: 20px; }
 
 /*paginaproductos*/
-.titulo3 {
-  background-color: #c87a69;
-  padding: 8px 12px; }
-
 .productos {
   padding: 0.5vw;
   font-size: 120%; }

@@ -1,8 +1,8 @@
 /*paginacontacto*/
 .contacto{
     background-color: $color-fondo;
-    margin-top: -40px;
-    margin-bottom: 50px;
+    margin-top: ($margin)-140;
+    margin-bottom: ($margin)-50;
     .titulo{
         background-color: $color-primario;
         padding: 8px 12px;
@@ -12,7 +12,7 @@
         display: flex;
         justify-content: center;
         form{
-            margin: 40px;
+            margin: ($margin)-60;
             input[type=text],select,textarea {
                 width: 100%;
                 padding: 12px;
@@ -20,8 +20,8 @@
                 outline: none;
                 border-radius: 4px;
                 box-sizing: border-box;
-                margin-top: 6px;
-                margin-bottom: 16px;
+                margin-top: ($margin)-94;
+                margin-bottom: ($margin)-84;
                 resize: vertical
             }
             .boton{

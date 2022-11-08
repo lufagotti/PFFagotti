@@ -1,18 +1,17 @@
 /*paginaproductos*/
 .titulo3{
-    background-color: $color-primario;
-    padding: 8px 12px;
+    @extend .titulo2
 }
 .productos{
     padding: 0.5vw;
-    font-size: 120%;
+    font-size: $fuente-size/2;
     .precio{
         display: flex;
         justify-content: center;
         padding-top: 5%;
         h4{
-            margin-left: 10px;
-            margin-right: 10px;
+            margin-left: ($margin)-90;
+            margin-right: ($margin)-90;
         }
     }
 }

@@ -3,25 +3,25 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    margin-top: -40px;
+    margin-top: ($margin)-140;
     background-color: $color-fondo;
     padding: 20px;
-    margin-bottom: 50px;
+    margin-bottom: ($margin)-50;
     .texto{
-        margin-top: 30px;
+        margin-top: ($margin)-70;
         padding-top: 10px;
         text-align: center;
-        margin-left: 60px;
-        margin-right: 60px;
+        margin-left: ($margin)-40;
+        margin-right: ($margin)-40;
         .titulo1{
-            margin-bottom: 20px;
+            margin-bottom: ($margin)-80;
             background-color: $color-primario;
             padding: 8px;
             text-align: center;
             font-size: xx-large;
         }
         .texto--inicio{
-            margin-bottom: 20px;
+            margin-bottom: ($margin)-80;
         }
     }
 }
