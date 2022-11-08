@@ -104,6 +104,7 @@ ul {
       padding: 8px 12px;
       border-radius: 10px; }
 
+/*Media Querries*/
 @media only screen and (min-width: 1300px) {
   .texto {
     width: 40%; } }
