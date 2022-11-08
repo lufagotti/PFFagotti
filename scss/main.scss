@@ -16,66 +16,11 @@
 @import 'pages/productos';
 
 *{
-    font-family: century gothic;
+    font-family: $fuente-principal;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 section{
     padding: 90px 20px 0;
-}
-
-
-@media only screen and (max-width: 800px) {
-    .footer-section .contacto{
-        width: 90%;
-        grid-template-columns: repeat(1, 1fr);
-        grid-gap: 30px;
-        padding: 35px 0px;
-    }
-    .contacto{
-        margin-left: 0;
-        margin-right: 0;
-    }
-}
-@media only screen and (min-width:700px){
-    form{
-        width: 40rem;
-    }
-}
-@media only screen and (max-width:1000px){
-    .productos {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-        padding: 0.5vw;
-    }
-    .precio{
-        padding-bottom: 5%;
-    }
-}
-@media only screen and (max-width:600px) {
-    .productos {
-        display: grid;
-            grid-template-columns: repeat(1, 1fr);
-            padding: 0.5vw;
-        }
-    .inicio img{
-        width: 300px;
-        height: 300px;
-    }
-    }
-@media (max-width:700px){
-    nav{
-        flex-direction: column;
-        }
-    .texto{
-        width: 250px;
-        }
-    .logo{
-        display: grid;
-        grid-template-columns: repeat(1, 170px)
-    }
-    .logo img{
-        margin-left: 40px;
-    }
 }
