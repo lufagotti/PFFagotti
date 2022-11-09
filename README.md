@@ -1,1 +1,4 @@
-Segunda Pre-Entrega con dos paginas responsive (index.html y productos.html)
+Tercera Pre-Entrega:
+-Todas las paginas responsive
+-Traslados de archivos css a scss
+-Tecnicas SEO
