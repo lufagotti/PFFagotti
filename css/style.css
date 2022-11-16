@@ -18,7 +18,10 @@ div img {
 /*Layout*/
 /*Footer*/
 .footer-section {
-  background-color: blanchedalmond; }
+  background-color: blanchedalmond;
+  position: absolute;
+  bottom: 0;
+  width: 100%; }
   .footer-section .contacto-footer {
     width: 100%;
     max-width: 1200px;
@@ -271,3 +274,8 @@ section img {
 
 section {
   padding: 90px 20px 0; }
+
+body {
+  position: relative;
+  padding-bottom: 2em;
+  min-height: 100vh; }

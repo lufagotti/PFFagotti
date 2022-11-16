@@ -1,6 +1,9 @@
 /*Footer*/
 .footer-section{
     background-color: $color-fondo;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
     .contacto-footer{
         width: 100%;
         max-width: 1200px;
