@@ -83,12 +83,8 @@ nav {
   nav img {
     margin-left: 5px; }
 
-.logo {
-  display: grid;
-  align-items: center;
-  grid-template-columns: 1fr 200px; }
-  .logo img {
-    margin-right: 10px; }
+.logo img {
+  margin-right: 10px; }
 
 ul {
   padding-top: 10px;
@@ -99,9 +95,7 @@ ul {
     padding-top: 10px;
     padding-bottom: 10px; }
     ul li a {
-      margin-right: 25px;
-      text-decoration: none;
-      font-weight: bold; }
+      margin-right: 25px; }
     ul li .active {
       background-color: blanchedalmond;
       padding: 8px 12px;
@@ -146,12 +140,7 @@ ul {
 
 @media (max-width: 700px) {
   nav {
-    flex-direction: column; }
-  .logo {
-    display: grid;
-    grid-template-columns: repeat(1, 170px); }
-  .logo img {
-    margin-left: 40px; } }
+    flex-direction: column; } }
 
 @media only screen and (max-width: 600px) {
   .productos {
