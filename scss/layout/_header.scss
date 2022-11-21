@@ -30,6 +30,9 @@ ul{
             background-color: $color-fondo;
             padding: 8px 12px;
             border-radius: 10px;
+            }
         }
     }
+.navbar-collapse{
+    justify-content: flex-end;
 }

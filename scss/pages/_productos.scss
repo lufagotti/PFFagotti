@@ -5,13 +5,18 @@
 .productos{
     padding: 0.5vw;
     font-size: $fuente-size/2;
+    justify-items: center;
     .precio{
-        display: flex;
-        justify-content: center;
-        padding-top: 5%;
-        h4{
-            margin-left: ($margin)-90;
-            margin-right: ($margin)-90;
-        }
+        font-weight: bolder;
+    }
+}
+.btn-primary{
+    background-color:$color-primario;
+    border-color: $color-primario;
+    --bs-btn-active-bg: #c87a69;
+    --bs-btn-active-border-color: #c87a69;
+    &:hover{
+        background-color: $color-primario;
+        border-color: $color-fuente;
     }
 }

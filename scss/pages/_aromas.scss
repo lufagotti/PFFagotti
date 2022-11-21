@@ -7,3 +7,23 @@ section img{
     padding-bottom: 15px;
     padding: 20px;
 }
+.card-aromas{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    flex-wrap: wrap;
+}
+.card{
+    margin-top: 40px;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 1px 10px rgba(0,0,0,0.2);
+    &:hover{
+        box-shadow: 5px 5px 20px rgba(0,0,0,0.4);
+        transform: translateY(-3%);
+    }
+}
+.card-img-top{
+    width: 286px;
+    margin-left: 0px;
+}

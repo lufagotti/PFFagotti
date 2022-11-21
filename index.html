@@ -16,8 +16,8 @@
     <header>
         <nav class="navbar navbar-expand-lg bg-$color-primario">
             <div class="container-fluid">
-                <a class="logo" href="#">
-                    <img src="imagenes/Pink White Scented Candles Logo.png" alt="Logo" href="index.html">
+                <a class="logo" href="index.html">
+                    <img src="imagenes/Pink White Scented Candles Logo.png" alt="Logo">
                 </a>
                 <h1>Koko's Candle</h1>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -47,7 +47,27 @@
     </header>
     <section>
         <article class="inicio">
-            <img src="imagenes/candle.jpg" alt="imagen velas principal">
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                    <img src="imagenes/candle.jpg" class="d-block w-100" alt="vela inicio">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="imagenes/velasinicio.jpg" class="d-block w-100" alt="vela inicio">
+                    </div>
+                    <div class="carousel-item">
+                    <img src="imagenes/velass.jpg" class="d-block w-100" alt="vela inicio">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
             <div class="texto">
                 <h1 class="titulo1">Bienvenidos</h1>
                 <p class="texto--inicio">Koko's Candles es una empresa argentina que desde 2020 se dedica a la fabricación y comercialización de velas artesanales, esencias y una amplia gama de productos de gran calidad. Nuestro propósito es ofrecer constantemente productos confiables e innovadores garantizando calidad, compromiso y servicio a nuestros clientes.</p>
@@ -55,6 +75,25 @@
                 <p class="texto--inicio">Nos destacamos en priorizar la calidad de nuestras materias primas y el cumplimiento de las entregas. Nuestros productos llevan la marca de la experiencia, el trabajo manual y la pasión por la excelencia.</p>
                 <h2>Nuestros valores</h2>
                 <p class="texto--inicio">Somos respetuosos del trabajo de nuestros clientes en todo el país, estamos comprometidos con la calidad de cada pedido y creemos que el buen trato y la escucha son indispensables para una relación laboral donde todos ganemos.</p>
+            </div>
+            <div class="inicio-info">
+                <div class="inicio-info_box">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <h4>CALIDAD GARANTIZADA</h4>
+                    <p>Elegimos la mejores materias primas 
+                        cuidando cada detalle en el diseño y producción.</p>
+                </div>
+                <div class="inicio-info_box">
+                    <i class="fa-solid fa-hammer"></i>
+                    <h4>SOMOS FABRICANTES</h4>
+                    <p>Fabricamos y vendemos al por mayor, con clientes distribuidos por todo el País.</p>
+                </div>
+                <div class="inicio-info-box">
+                    <i class="fa-solid fa-seedling"></i>
+                    <h4>100% CRUELTY FREE</h4>
+                    <p>Nuestras velas son de soja un material derivado de plantas, una fuente renovable y biodegradable</p>
+                </div>
+
             </div>
         </article>
     </section>

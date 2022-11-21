@@ -1,15 +1,11 @@
 /*Utilities*/
 .inicio img {
-  width: 550px;
+  width: 100%;
   height: 550px; }
 
 .logo img {
   width: 80px;
   height: 80px; }
-
-.productos img {
-  width: 200px;
-  height: 200px; }
 
 div img {
   width: 250px;
@@ -20,7 +16,9 @@ div img {
 .footer-section {
   background-color: blanchedalmond;
   position: absolute;
-  bottom: 0;
+  /*
+    bottom: 0;
+    */
   width: 100%; }
   .footer-section .contacto-footer {
     width: 100%;
@@ -46,7 +44,9 @@ div img {
       border-radius: 10px;
       text-align: center;
       align-items: center;
-      transition: all 300ms ease; }
+      transition: all 300ms ease;
+      margin-left: 25px;
+      color: black; }
       .footer-section .contacto-footer .box a i {
         font-size: 20px;
         color: black;
@@ -58,20 +58,30 @@ div img {
     .footer-section .contacto-footer .box .info {
       display: flex;
       margin-top: 5px; }
+      .footer-section .contacto-footer .box .info a {
+        margin-left: 25px;
+        color: black; }
+      .footer-section .contacto-footer .box .info h5 {
+        margin-top: 10px;
+        margin-left: 5px; }
   .footer-section .copy {
     background-color: #c87a69;
     padding: 15px 10px;
     text-align: center;
     color: #fff; }
 
-div a {
-  margin-left: 25px;
-  color: black; }
-
-div h5 {
-  margin-top: 10px;
-  margin-left: 5px; }
-
+/*
+div{
+    a{
+        margin-left: 25px;
+        color: $color-fuente;
+    }
+    h5{
+        margin-top: 10px;
+        margin-left: 5px;
+    }
+}
+*/
 /*Header*/
 nav {
   display: flex;
@@ -101,11 +111,10 @@ ul {
       padding: 8px 12px;
       border-radius: 10px; }
 
-/*Media Querries*/
-@media only screen and (min-width: 1300px) {
-  .texto {
-    width: 40%; } }
+.navbar-collapse {
+  justify-content: flex-end; }
 
+/*Media Querries*/
 @media only screen and (min-width: 1000px) {
   .productos {
     display: grid;
@@ -190,8 +199,6 @@ ul {
 
 /*paginainicio*/
 .inicio {
-  display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   margin-top: -40px;
   background-color: blanchedalmond;
@@ -200,9 +207,8 @@ ul {
   .inicio .texto {
     margin-top: 30px;
     padding-top: 10px;
-    text-align: center;
-    margin-left: 60px;
-    margin-right: 60px; }
+    margin-left: 35px;
+    margin-right: 33px; }
     .inicio .texto .titulo1 {
       margin-bottom: 20px;
       background-color: #c87a69;
@@ -211,13 +217,39 @@ ul {
       font-size: xx-large; }
     .inicio .texto .texto--inicio {
       margin-bottom: 20px; }
+  .inicio .inicio-info {
+    display: flex;
+    padding-top: 60px;
+    margin-left: 40px;
+    padding-right: 22px; }
+    .inicio .inicio-info .inicio-info_box {
+      padding-right: 36px; }
+
+.inicio img {
+  object-fit: cover;
+  padding-right: 47px; }
+
+i.fa-solid.fa-hand-holding-heart, i.fa-solid.fa-hammer, i.fa-solid.fa-seedling {
+  font-size: 50px;
+  background-color: #c87a69;
+  width: 77px;
+  height: 77px;
+  text-align: center;
+  line-height: 68px;
+  border-radius: 63px;
+  margin-bottom: 12px; }
+
+i.fa-solid.fa-hammer {
+  line-height: 72px; }
+
+i.fa-solid.fa-seedling {
+  line-height: 76px; }
 
 /*paginaFAQ*/
 .faq {
   background-color: blanchedalmond;
   margin-top: -40px;
-  margin-bottom: 50px;
-  text-align: center; }
+  margin-bottom: 50px; }
   .faq .titulo2, .faq .titulo3 {
     background-color: #c87a69;
     padding: 8px 12px;
@@ -243,17 +275,41 @@ section img {
   padding-bottom: 15px;
   padding: 20px; }
 
+.card-aromas {
+  display: flex;
+  justify-content: space-around;
+  padding-bottom: 50px;
+  flex-wrap: wrap; }
+
+.card {
+  margin-top: 40px;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.2); }
+  .card:hover {
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%); }
+
+.card-img-top {
+  width: 286px;
+  margin-left: 0px; }
+
 /*paginaproductos*/
 .productos {
   padding: 0.5vw;
-  font-size: 120%; }
+  font-size: 120%;
+  justify-items: center; }
   .productos .precio {
-    display: flex;
-    justify-content: center;
-    padding-top: 5%; }
-    .productos .precio h4 {
-      margin-left: 10px;
-      margin-right: 10px; }
+    font-weight: bolder; }
+
+.btn-primary {
+  background-color: #c87a69;
+  border-color: #c87a69;
+  --bs-btn-active-bg: #c87a69;
+  --bs-btn-active-border-color: #c87a69; }
+  .btn-primary:hover {
+    background-color: #c87a69;
+    border-color: black; }
 
 * {
   font-family: century gothic;

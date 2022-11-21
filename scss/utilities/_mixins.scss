@@ -3,13 +3,10 @@
     height: $height;
 }
 .inicio img{
-    @include sizes (550px, 550px)
+    @include sizes (100%, 550px)
 }
 .logo img{
     @include sizes (80px, 80px)
-}
-.productos img{
-    @include sizes (200px, 200px)
 }
 div img{
     @include sizes (250px, 250px)
