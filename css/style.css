@@ -202,9 +202,6 @@ ul.navbar-nav {
   background-color: blanchedalmond;
   padding: 20px;
   margin-bottom: 50px; }
-  .inicio .carousel {
-    margin-right: 20px;
-    margin-top: 10px; }
   .inicio .texto {
     margin-top: 30px;
     padding-top: 10px;
@@ -219,8 +216,7 @@ ul.navbar-nav {
     .inicio .texto .texto--inicio {
       margin-bottom: 20px; }
   .inicio .inicio-info {
-    padding-top: 50px;
-    padding-right: 22px; }
+    padding-top: 50px; }
     .inicio .inicio-info .inicio-info_box {
       margin-left: 10px;
       margin-right: 18px; }
