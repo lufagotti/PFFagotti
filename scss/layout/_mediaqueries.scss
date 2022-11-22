@@ -1,11 +1,11 @@
 /*Media Querries*/
-@media only screen and (min-width:1000px) {
+@media only screen and (min-width:1200px) {
     .productos{
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
 }
-@media only screen and (max-width:1000px){
+@media only screen and (max-width:1200px){
     .productos {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
@@ -20,6 +20,9 @@
         margin-left: 20%;
         margin-right: 20%;
     }
+    body{
+        padding-bottom: 19em;
+    }
 }
 @media only screen and (max-width: 800px) {
     .footer-section .contacto-footer{
@@ -32,10 +35,17 @@
         margin-left: 0;
         margin-right: 0;
     }
+    body{
+        padding-bottom: 26em;
+    }
 }
 @media only screen and (min-width:700px){
     form{
         width: 80%;
+    }
+    .inicio-info_box{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 @media (max-width:700px){
@@ -53,4 +63,4 @@
         width: 300px;
         height: 300px;
     }
-    }
+}

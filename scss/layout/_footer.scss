@@ -2,9 +2,7 @@
 .footer-section{
     background-color: $color-fondo;
     position: absolute;
-    /*
     bottom: 0;
-    */
     width: 100%;
     .contacto-footer{
         width: 100%;
@@ -67,15 +65,3 @@
         color: $color-copy;
     }
 }
-/*
-div{
-    a{
-        margin-left: 25px;
-        color: $color-fuente;
-    }
-    h5{
-        margin-top: 10px;
-        margin-left: 5px;
-    }
-}
-*/

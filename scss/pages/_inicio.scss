@@ -5,6 +5,10 @@
     background-color: $color-fondo;
     padding: 20px;
     margin-bottom: ($margin)-50;
+    .carousel{
+        margin-right: 20px;
+        margin-top: 10px;
+    }
     .texto{
         margin-top: ($margin)-70;
         padding-top: 10px;
@@ -22,34 +26,34 @@
         }
     }
     .inicio-info{
-        display: flex;
-        padding-top: 60px;
-        margin-left: 40px;
+        padding-top: 50px;
         padding-right: 22px;
         .inicio-info_box{
-            padding-right: 36px;
-        }
+            margin-left: 10px;
+            margin-right: 18px;
+            .box{
+                text-align: center;
+                margin-left: 10px;
+                margin-right: 10px;
+                i.fa-solid.fa-hand-holding-heart{
+                    font-size: 50px;
+                    background-color: $color-primario;
+                    width: 77px;
+                    height: 77px;
+                    text-align: center;
+                    line-height: 68px;
+                    border-radius: 63px;
+                    margin-bottom: 12px
+                }
+                i.fa-solid.fa-hammer{
+                    @extend i.fa-solid.fa-hand-holding-heart;
+                    line-height: 72px;
+                }
+                i.fa-solid.fa-seedling{
+                    @extend i.fa-solid.fa-hand-holding-heart;
+                    line-height: 76px;
+                }
+            }
+        } 
     }
-}
-.inicio img{
-    object-fit: cover;
-    padding-right: 47px;
-}
-i.fa-solid.fa-hand-holding-heart{
-    font-size: 50px;
-    background-color: $color-primario;
-    width: 77px;
-    height: 77px;
-    text-align: center;
-    line-height: 68px;
-    border-radius: 63px;
-    margin-bottom: 12px
-}
-i.fa-solid.fa-hammer{
-    @extend i.fa-solid.fa-hand-holding-heart;
-    line-height: 72px;
-}
-i.fa-solid.fa-seedling{
-    @extend i.fa-solid.fa-hand-holding-heart;
-    line-height: 76px;
 }

@@ -16,9 +16,7 @@ div img {
 .footer-section {
   background-color: blanchedalmond;
   position: absolute;
-  /*
-    bottom: 0;
-    */
+  bottom: 0;
   width: 100%; }
   .footer-section .contacto-footer {
     width: 100%;
@@ -70,18 +68,6 @@ div img {
     text-align: center;
     color: #fff; }
 
-/*
-div{
-    a{
-        margin-left: 25px;
-        color: $color-fuente;
-    }
-    h5{
-        margin-top: 10px;
-        margin-left: 5px;
-    }
-}
-*/
 /*Header*/
 nav {
   display: flex;
@@ -114,13 +100,18 @@ ul {
 .navbar-collapse {
   justify-content: flex-end; }
 
+ul.navbar-nav {
+  margin-left: 70px;
+  margin-right: 70px;
+  text-align: center; }
+
 /*Media Querries*/
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 1200px) {
   .productos {
     display: grid;
     grid-template-columns: repeat(4, 1fr); } }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1200px) {
   .productos {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -131,7 +122,9 @@ ul {
 @media only screen and (min-width: 800px) {
   .contacto {
     margin-left: 20%;
-    margin-right: 20%; } }
+    margin-right: 20%; }
+  body {
+    padding-bottom: 19em; } }
 
 @media only screen and (max-width: 800px) {
   .footer-section .contacto-footer {
@@ -141,11 +134,16 @@ ul {
     padding: 35px 0px; }
   .contacto-footer {
     margin-left: 0;
-    margin-right: 0; } }
+    margin-right: 0; }
+  body {
+    padding-bottom: 26em; } }
 
 @media only screen and (min-width: 700px) {
   form {
-    width: 80%; } }
+    width: 80%; }
+  .inicio-info_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); } }
 
 @media (max-width: 700px) {
   nav {
@@ -204,6 +202,9 @@ ul {
   background-color: blanchedalmond;
   padding: 20px;
   margin-bottom: 50px; }
+  .inicio .carousel {
+    margin-right: 20px;
+    margin-top: 10px; }
   .inicio .texto {
     margin-top: 30px;
     padding-top: 10px;
@@ -218,32 +219,28 @@ ul {
     .inicio .texto .texto--inicio {
       margin-bottom: 20px; }
   .inicio .inicio-info {
-    display: flex;
-    padding-top: 60px;
-    margin-left: 40px;
+    padding-top: 50px;
     padding-right: 22px; }
     .inicio .inicio-info .inicio-info_box {
-      padding-right: 36px; }
-
-.inicio img {
-  object-fit: cover;
-  padding-right: 47px; }
-
-i.fa-solid.fa-hand-holding-heart, i.fa-solid.fa-hammer, i.fa-solid.fa-seedling {
-  font-size: 50px;
-  background-color: #c87a69;
-  width: 77px;
-  height: 77px;
-  text-align: center;
-  line-height: 68px;
-  border-radius: 63px;
-  margin-bottom: 12px; }
-
-i.fa-solid.fa-hammer {
-  line-height: 72px; }
-
-i.fa-solid.fa-seedling {
-  line-height: 76px; }
+      margin-left: 10px;
+      margin-right: 18px; }
+      .inicio .inicio-info .inicio-info_box .box {
+        text-align: center;
+        margin-left: 10px;
+        margin-right: 10px; }
+        .inicio .inicio-info .inicio-info_box .box i.fa-solid.fa-hand-holding-heart, .inicio .inicio-info .inicio-info_box .box i.fa-solid.fa-hammer, .inicio .inicio-info .inicio-info_box .box i.fa-solid.fa-seedling {
+          font-size: 50px;
+          background-color: #c87a69;
+          width: 77px;
+          height: 77px;
+          text-align: center;
+          line-height: 68px;
+          border-radius: 63px;
+          margin-bottom: 12px; }
+        .inicio .inicio-info .inicio-info_box .box i.fa-solid.fa-hammer {
+          line-height: 72px; }
+        .inicio .inicio-info .inicio-info_box .box i.fa-solid.fa-seedling {
+          line-height: 76px; }
 
 /*paginaFAQ*/
 .faq {
@@ -312,7 +309,7 @@ section img {
     border-color: black; }
 
 * {
-  font-family: century gothic;
+  font-family: Signika Negative;
   margin: 0;
   padding: 0;
   box-sizing: border-box; }
@@ -322,5 +319,4 @@ section {
 
 body {
   position: relative;
-  padding-bottom: 2em;
   min-height: 100vh; }
