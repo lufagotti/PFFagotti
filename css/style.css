@@ -299,6 +299,9 @@ ul.navbar-nav {
     background-color: #c87a69;
     border-color: black; }
 
+.card {
+  margin-bottom: 30px; }
+
 * {
   font-family: Signika Negative;
   margin: 0;
