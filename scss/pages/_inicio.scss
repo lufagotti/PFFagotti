@@ -15,7 +15,7 @@
         margin-left: ($margin)-65;
         margin-right: ($margin)-67;
         .titulo1{
-            margin-bottom: ($margin)-80;
+            margin-bottom:($margin)-80;
             background-color: $color-primario;
             padding: 8px;
             text-align: center;
@@ -29,12 +29,12 @@
         padding-top: 50px;
         padding-right: 22px;
         .inicio-info_box{
-            margin-left: 10px;
-            margin-right: 18px;
+            margin-left: ($margin)-90px;
+            margin-right: ($margin)-82px;
             .box{
                 text-align: center;
-                margin-left: 10px;
-                margin-right: 10px;
+                margin-left: ($margin)-90px;
+                margin-right:($margin)-90px;
                 i.fa-solid.fa-hand-holding-heart{
                     font-size: 50px;
                     background-color: $color-primario;
@@ -43,7 +43,7 @@
                     text-align: center;
                     line-height: 68px;
                     border-radius: 63px;
-                    margin-bottom: 12px
+                    margin-bottom:($margin)-88px
                 }
                 i.fa-solid.fa-hammer{
                     @extend i.fa-solid.fa-hand-holding-heart;
